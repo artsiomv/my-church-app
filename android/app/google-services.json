@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850835215814",
+    "project_id": "my-church-app-6403f",
+    "storage_bucket": "my-church-app-6403f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850835215814:android:3bf4ee791d98c4e63acec7",
+        "android_client_info": {
+          "package_name": "com.example.my_church_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850835215814-vci63h5l7jhk5emrghlppu4q1u0pb3pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvCOYQXZjg_DCoQj8k2aVEu1ZwTGZdcvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850835215814-vci63h5l7jhk5emrghlppu4q1u0pb3pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
