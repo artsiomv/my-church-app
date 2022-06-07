@@ -19,11 +19,11 @@ class _InitScreenState extends State<InitScreen> {
   int _page = 2;
 
   final List<Widget> _children = [
-    const ContactUsScreen(),
-    const MediaScreen(),
-    const WelcomeScreen(),
-    const PrayerScreen(),
-    const SettingsScreen()
+    ContactUsScreen(),
+    MediaScreen(),
+    WelcomeScreen(),
+    PrayerScreen(),
+    SettingsScreen()
   ];
 
   @override

@@ -12,8 +12,24 @@ class WelcomeScreen extends StatefulWidget {
 class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Welcome1'),
+    return SafeArea(
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Center(
+              child: Container(
+                alignment: Alignment.topCenter,
+                child: const Text(
+                  'Welcome to\nLight To The World,\nhere is whats new',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 30.0),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
