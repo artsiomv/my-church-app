@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:my_church_app/providers/tab_data.dart';
+import 'package:my_church_app/screens/add_service_stream_admin_screen.dart';
+import 'package:my_church_app/screens/add_event_admin_screen.dart';
+import 'package:my_church_app/screens/admin_screen.dart';
 import 'package:my_church_app/screens/contact_us_screen.dart';
+import 'package:my_church_app/screens/email_login_screen.dart';
+import 'package:my_church_app/screens/email_register_screen.dart';
 import 'package:my_church_app/screens/init_screen.dart';
 import 'package:my_church_app/screens/media_screen.dart';
 import 'package:my_church_app/screens/prayer_screen.dart';
@@ -36,6 +40,11 @@ class MyChurch extends StatelessWidget {
         InitScreen.id: (context) => const InitScreen(),
         ContactUsScreen.id: (context) => const ContactUsScreen(),
         SettingsScreen.id: (context) => const SettingsScreen(),
+        EmailLoginScreen.id: (context) => const EmailLoginScreen(),
+        EmailRegistrationScreen.id: (context) => EmailRegistrationScreen(),
+        AdminScreen.id: (context) => AdminScreen(),
+        AddServiceStreamScreen.id: (context) => AddServiceStreamScreen(),
+        AddEventScreen.id: (context) => AddEventScreen(),
       },
     );
   }

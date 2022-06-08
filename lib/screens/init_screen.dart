@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:my_church_app/screens/add_service_stream_admin_screen.dart';
 import 'package:my_church_app/screens/contact_us_screen.dart';
 import 'package:my_church_app/screens/media_screen.dart';
 import 'package:my_church_app/screens/prayer_screen.dart';
@@ -23,6 +24,7 @@ class _InitScreenState extends State<InitScreen> {
     MediaScreen(),
     WelcomeScreen(),
     PrayerScreen(),
+    // AddServiceStreamScreen(),
     SettingsScreen()
   ];
 
